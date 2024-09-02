@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "outfit-regular";
+    src: url(../assets/fonts/outfit/static/Outfit-Regular.ttf) format('truetype-variations');
+
+}
+
+@font-face {
+    font-family: "outfit-semibold";
+    src: url(../assets/fonts/outfit/static/outfit-SemiBold.ttf) format('truetype-variations');
+}
+
+@font-face {
+    font-family: 'outfit-bold';
+    src: url(../assets/fonts/outfit/static/outfit-Bold.ttf) format('truetype-variations');
+}
+
+@font-face {
+    font-family: "young-serif";
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype-variations');
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: #F3E5D7;
+}
+
+.card {
+
+    width: 736px;
+
+
+    margin: 128px auto;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 40px;
+
+
+
+}
+
+img {
+
+    box-sizing: border-box;
+    width: 100%;
+
+
+    border-radius: 12px;
+    margin-bottom: 40px;
+
+
+}
+
+.text-content {}
+
+h1 {
+    font-family: "young-serif";
+    color: #312E2C;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.title p {
+    font-family: "outfit-regular";
+
+    color: #5F564D;
+}
+
+.preparation {
+    background-color: #FFF7FB;
+    padding: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.preparation h3,
+.preparation ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+.preparation>h3 {
+    font-family: "outfit-semibold";
+    font-size: 20px;
+    color: #7A284E;
+    margin: 0px;
+
+}
+
+.preparation span {
+    font-family: "outfit-bold";
+    margin-left: 16px;
+}
+
+.preparation ul {
+    color: #5F564D;
+}
+
+.preparation ul li:nth-child(2) {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.ingredients {
+    margin-bottom: 32px;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+    font-family: 'young-serif';
+    font-size: 28px;
+    color: #854632;
+    margin-bottom: 24px;
+}
+
+.ingredients li {
+    margin-bottom: 8px;
+    font-family: 'outfit-regular';
+    line-height: 150%;
+    color: #5F564D;
+    padding-left: 22px;
+
+}
+
+.ingredients ul {
+    padding-left: 22px;
+}
+
+
+
+hr {
+    background-color: #E3DDD7;
+}
+
+.instructions li {
+    font-family: "outfit-regular";
+    line-height: 150%;
+    color: #5F564D;
+    margin: 8px;
+    padding-left: 22px;
+}
+
+.instructions span {
+    font-family: "outfit-bold";
+    color: #5F564D;
+
+}
+
+.instructions ol {
+    padding-left: 22px;
+}
+
+.instructions {
+    margin-bottom: 32px;
+}
+
+.nutrition {
+    margin-top: 32px;
+    margin-bottom: 40px;
+
+}
+
+.nutrition p,
+.nutrition tr {
+    font-family: 'outfit-regular';
+    color: #5F564D;
+    line-height: 150%;
+}
+
+.nutrition tr td:nth-child(even) {
+    font-family: 'outfit-bold';
+    color: 854632;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-bottom: 1px solid #E3DDD7;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 616px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .card {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .img {
+        margin: 0;
+        width: stretch;
+    }
+}
